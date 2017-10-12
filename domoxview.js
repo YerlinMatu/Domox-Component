@@ -1,21 +1,20 @@
 /**
-* Foco Component <Lightbulb pin={n}/>.
-* @props { Number } pin
+* Foco Component <Lightbulb name="s" pin={n}/>.
 * @props { String } name
+* @props { Number } pin
 * use for unique light.
 */
 
 class Lightbulb extends React.Component {
-    render(){
-      this.props.pin;
-      return (
-      <div>
-        <label for="flip-select-second"><strong>{ this.props.name}</strong></label>
-          <select name="flip-select" data-role="flipswitch" className="foco">
-          <option>Off</option>
-          <option selected="">On</option>
-        </select>
-      </div>
-          )
-      }
+  render(){
+    this.props.pin;
+    return
+    (<div>
+      <label for="flip-select-second"><strong>{ this.props.name}</strong></label>
+        <select name="flip-select" data-role="flipswitch" className="foco">
+        <option>Off</option>
+        <option selected="">On</option>
+      </select>
+    </div>)
+    }
 }
