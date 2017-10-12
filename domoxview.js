@@ -1,4 +1,9 @@
-class Foco extends React.Component {
+/*
+Foco Component.
+@param {String }
+*/
+
+class Lightbulb extends React.Component {
       render(){
           this.props.pin;
           return (
