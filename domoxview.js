@@ -1,7 +1,7 @@
 /**
 * Foco Component <Lightbulb pin={n}>.
 * @props { Number } pin
-* @const { Number } pin
+* @props { String } name
 * @description  use for unique light.
 */
 
