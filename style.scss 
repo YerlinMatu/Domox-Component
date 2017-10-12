@@ -1,0 +1,143 @@
+// Colors
+$yellow:#e67e22;
+$purple:#9b59b6;
+$orange:#e67e22;
+* {
+   font-family: 'Roboto', sans-serif !important;
+   font-weight: 300;
+ }
+
+ .ui-header {
+   background-color: #27ae60 !important;
+   color: #fff !important;
+   text-shadow: 0px 2px 1px #27ae60 !important;
+   border-top: 1px solid #DB5362 !important;
+   border-bottom: 1px solid #27ae60 !important;
+   #header {
+      position:fixed;
+   }
+ }
+
+ a {
+   color: #ce1126 ;
+   text-decoration: none;
+ }
+
+ .ui-bar-a {
+   background-color: #f2f2f2 !important;
+ }
+
+ .ui-header h1.ui-title {
+   font-weight: bold;
+   margin: 0px !important;
+   font-size: 24px;
+ }
+
+ h3.ui-bar {
+   padding-top: 15px;
+   padding-bottom: 15px;
+ }
+
+ .ui-block-b {
+   text-align: right;
+ }
+
+ .ui-bar:first-of-type {
+   margin-top: 0px;
+ }
+
+ .ui-body .ui-grid-a {
+   border-bottom: 1px solid #efefef;
+   padding-bottom: 10px;
+   padding-top: 6px;
+ }
+
+ .ui-body .ui-grid-a:last-child {
+   border-bottom: none;
+ }
+
+ legend {
+   padding-top: 19px !important;
+ }
+
+ .ui-block-b {
+   font-size: 0px;
+ }
+
+ .toggle .ui-block-b button:first-of-type {
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   margin-right: 0px !important;
+   border-right: 0px;
+ }
+
+ .toggle .ui-block-b button:last-of-type {
+   border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   margin-lefT: 0px !important;
+ }
+
+ .ui-grid-a>.ui-block-a {
+   width: 50% !important;
+ }
+
+ .ui-grid-a>.ui-block-b {
+   width: 50% !important;
+ }
+
+#heaterPhoto{
+  background-image: url("https://png.icons8.com/partly-cloudy-rain/color/24");
+  background-repeat: no-repeat;
+  background-position: 95% 50% ;
+ }
+
+#luces-icon {
+  background-image: url("https://png.icons8.com/globe-bulb/color/24");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+ }
+/*
+#gas-icon {
+  background-image: url("https://png.icons8.com/gas/color/24");
+  background-repeat: no-repeat;
+  background-position: 45% 92%;
+}
+*/
+#Motion-icon {
+  background-image: url("https://png.icons8.com/sports-mode/color/24");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+#Motion-icon img {
+  display:inline !important;
+}
+#thermostatOnOff {
+   background-color:black;
+}
+
+.foco {
+    display:inline !important;
+}
+.ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
+  background-color:$yellow !important;
+}
+
+// interruptores.
+.ui-flipswitch-active {
+  background-color: $purple !important;
+  border-color:$purple !important;
+  box-shadow: 0 1px 0 $purple !important;
+  .foco .all {
+     background-color:$orange !important;
+  }
+}
+
+.ui-corner-all {
+   margin-bottom:20px;
+}
+
+input, button {
+  &:focus {
+     outline:0 !important;
+  }
+}
