@@ -1,8 +1,8 @@
 /**
-* Foco Component <Lightbulb pin={n}>.
+* Foco Component <Lightbulb pin={n}/>.
 * @props { Number } pin
 * @props { String } name
-* @description  use for unique light.
+* use for unique light.
 */
 
 class Lightbulb extends React.Component {
