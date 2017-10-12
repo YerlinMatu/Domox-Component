@@ -1,5 +1,21 @@
+
 /**
-* Foco Component <Lightbulb name="s" pin={n}/>.
+* Bar Component <Uibar>text...</Uibar>
+* @children { String } title
+* use for title of block.
+*/
+
+class Uibar extends React.Component {
+  render(){
+    return
+       (<div>
+          <h3 className="ui-bar ui-bar-a ui-corner-all">{ this.props.children }</h3>
+       </div>)
+     }
+}
+
+/**
+* Foco Component <Lightbulb name="foo" pin={n}/>.
 * @props { String } name
 * @props { Number } pin
 * use for unique light.
