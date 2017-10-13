@@ -1,10 +1,12 @@
+/**
+@author: Yerlin Matu
+*/
 
 /**
-* Bar Component <Uibar>text...</Uibar>
+* @example <Uibar>text...</Uibar>
 * @children { String } title
 * use for title of block.
 */
-
 class Uibar extends React.Component {
   render(){
     return
@@ -15,7 +17,7 @@ class Uibar extends React.Component {
 }
 
 /**
-* Body Component <BodyComp></BodyComp>.
+* @example <BodyComp></BodyComp>.
 * use for unique structuring block.
 */
 
@@ -27,7 +29,7 @@ class BodyComp extends React.Component {
 }
 
 /**
-* Switch Component <Switch name="foco" pin={n}/>.
+* <Switch name="foco" pin={n}/>.
 * @props { String } name
 * @props { Number } pin
 * use for unique light.
@@ -48,7 +50,7 @@ class Switch extends React.Component {
 }
 
 /**
-* Component <THG temp={n} hum={n} gas={n}/>.
+* @example Component <THG temp={n} hum={n} gas={n}/>.
 * @props { Number } temp
 * @props { Number } hum
 * @props { Number } gas
